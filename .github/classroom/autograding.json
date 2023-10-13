@@ -5,7 +5,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "1",
-      "output": "^\\D*1\\D*$",
+      "output": "^\\D*1?\\D+1\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "2",
-      "output": "^\\D*1\\D+2\\D*$",
+      "output": "^\\D*2?\\D+1\\D+2\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "3",
-      "output": "^\\D*1\\D+3\\D*$",
+      "output": "^\\D*3?\\D+1\\D+3\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "4",
-      "output": "^\\D*1\\D+2\\D+4\\D*$",
+      "output": "^\\D*4?\\D+1\\D+2\\D+4\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "5",
-      "output": "^\\D*1\\D+5\\D*$",
+      "output": "^\\D*5?\\D+1\\D+5\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -55,7 +55,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "6",
-      "output": "^\\D*1\\D+2\\D+3\\D+6\\D*$",
+      "output": "^\\D*6?\\D+1\\D+2\\D+3\\D+6\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -65,7 +65,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "10",
-      "output": "^\\D*1\\D+2\\D+5\\D+10\\D*$",
+      "output": "^\\D*(10)?\\D+1\\D+2\\D+5\\D+10\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -75,7 +75,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "30",
-      "output": "^\\D*1\\D+2\\D+3\\D+5\\D+6\\D+10\\D+15\\D+30\\D*$",
+      "output": "^\\D*(30)?\\D+1\\D+2\\D+3\\D+5\\D+6\\D+10\\D+15\\D+30\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -85,7 +85,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "231",
-      "output": "^\\D*(231)*\\D+1\\D+3\\D+7\\D+11\\D+21\\D+33\\D+77\\D+231\\D*$",
+      "output": "^\\D*(231)?\\D+1\\D+3\\D+7\\D+11\\D+21\\D+33\\D+77\\D+231\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
