@@ -85,7 +85,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 lista_factores.py",
       "input": "231",
-      "output": "^\\D*1\\D+3\\D+7\\D+11\\D+21\\D+33\\D+77\\D+231\\D*$",
+      "output": "^\\D*(231)*\\D+1\\D+3\\D+7\\D+11\\D+21\\D+33\\D+77\\D+231\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
